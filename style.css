@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    font-size: 10px;
+    background: url(./assest/background.png);
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+header a {
+    color: white;
+    font-size: 2.8em;
+}
+
+header img {
+    background-color: black;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+nav:last-child {
+    text-decoration: none;
+    font-size: 1.6em;
+    padding: 10px;
+}
+
+.l {
+    flex-grow: 1;
+}
+
+/*.p {
+    flex-grow: 1;
+}
+.pr {
+    flex-grow: 1;
+}
+.d {
+    flex-grow: 1;
+}
+.c {
+    flex-grow: 1;
+}
+*/
+.n {
+    flex-grow: 8;
+}
+
+.buttons a {
+    text-decoration: none;
+    font-size: 1.6em;
+    padding: 10px;
+}
+
+input[type="text"] {
+    background: lightgrey;
+    border-color: lightgrey;
+    color: darkgrey;
+    width: 1000px;
+    height: 35px;
+}
+
+input[type="submit"] {
+    background: black;
+    color: white;
+    width: 200px;
+    height: 40px;
+}
+
+.signup {
+    text-decoration: none;
+    font-size: 1.6em;
+    padding: 10px;
+    font-size: 2em;
+    border: solid grey;
+    color: black;
+}
+
+.signin {
+    text-decoration: none;
+    font-size: 1.6em;
+    padding: 10px;
+}
+
+div .first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    box-sizing: content-box;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first h1 {
+    color: white;
+    font-size: 7em;
+    font-weight: 700;
+    text-align: center;
+    max-width: 500px;
+}
+
+.first h2 {
+    color: white;
+    font-size: 4em;
+    font-weight: 600;
+    text-align: center;
+    max-width: 500px;
+}
+
+.first p {
+    color: white;
+    font-size: 1.7em;
+    max-height: 500;
+    text-align: center;
+    max-width: 600px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.first a {
+    text-decoration: none;
+    color: white;
+    border: solid #b22222;
+    background-color: #b22222;
+    font-size: 2em;
+    font-weight: 600;
+    border-bottom-color: #ff8c00;
+}
+
+.first a:last-child {
+    text-decoration: none;
+    color: white;
+    border: solid Magenta;
+    background-color: Magenta;
+    font-size: 2em;
+    font-weight: 600;
+    border-bottom-color: #9932cc;
+}
+
+.big {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+}
+
+.big h2 {
+    color: black;
+    font-size: 4em;
+    font-weight: 600;
+    max-width: 530px;
+    text-align: center;
+    line-height: 40px;
+    ;
+}
+
+.big p {
+    text-align: center;
+    font-size: 1.5em;
+    color: gray;
+    max-width: 700px;
+    max-width: 500px;
+}
+
+.npmsrc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1300px;
+    margin-top: 30px;
+}
+
+.npmsrc div * {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70px;
+}
+
+
+.npmsrc a {
+    text-decoration: none;
+    border: solid black;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    font-size: 2em;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    border-width: thin;
+    height: 50px;
+    margin: 30px;
+}
+
+.dis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+}
+
+.dis h2 {
+    font-weight: 600;
+    font-size: 7em;
+    color: white;
+}
+
+.dis p {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    max-width: 700px;
+}
+
+.cmplogos {
+    background-color: white;
+
+}
+
+.cmplogos h2 {
+    color: black;
+    font-size: 4em;
+    font-weight: 700;
+    max-width: 520px;
+    text-align: center;
+}
+
+hr {
+    color: grey;
+
+}
+
+.three {
+    flex-grow: 2;
+}
+
+.one {
+    flex-grow: 2;
+}
+
+.image {
+    flex-grow: 1;
+}
+
+.two {
+    flex-grow: 2;
+}
+
+footer {
+    margin-bottom: 10px;
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 2em;
+}
+
+footer div a {
+    text-decoration: none;
+    color: gray;
